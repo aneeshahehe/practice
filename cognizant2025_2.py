@@ -6,15 +6,18 @@
 # list(...): Finally, list() takes the result from map, which is an iterable, and converts it into a list.
 # So, if a user inputs 1 2 3, the final output will be the list [1, 2, 3].
 
+#comparator function
 from collections import Counter
 def sort_key(x):
     return -x[1],x[0]
+
+#array to store elements as individuals
 arr= list(map(int,input().split(" ")))
 freq=Counter(arr)
-
+#store a list that has two elements, but on the basis of the comparator key
 
 freq_list.sort(key=sort_key)
-
+#ans only contains num part of the list
 ans= [num for num,freq in freq_list]
 
 print(ans)
