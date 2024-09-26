@@ -1,3 +1,4 @@
+# create the pyramid pattern
 
 def pyramidStar(n):  
     for i in range(n):

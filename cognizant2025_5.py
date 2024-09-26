@@ -1,3 +1,6 @@
+# count subarrays where the sum of the largest and smallest number is smaller than a given comparison number
+
+
 def countSubarrays(input1, input2, input3):
     
     i=0
