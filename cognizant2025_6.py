@@ -30,11 +30,9 @@ def formalNumber(input1, input2):
 # print("string of I's and F's")
 # for i in range(0,input1):
 #     input2 = input()  
-
 # result = formalNumber(input1, input2)
 # print(f'the number is:{result}')
 
-# Taking input correctly
 input1 = int(input('Enter N (length of the string): '))
 print("Enter a string of I's and F's (without spaces):")
 
